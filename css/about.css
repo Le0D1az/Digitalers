@@ -1,0 +1,24 @@
+.nav {
+  margin-bottom: 0;
+}
+
+main {
+  display: flex;
+  text-align: center;
+  margin-top: 0;
+}
+
+.description {
+  padding: 50px;
+  line-height: 1.5625rem;
+  text-align: justify;
+}
+
+.description__p {
+  color: #ffffff;
+  font-size: 1.125rem;
+}
+
+iframe {
+  margin-bottom: 50px;
+}
