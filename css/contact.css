@@ -16,6 +16,7 @@
 
 .contact-form {
   max-width: 400px;
+  min-width: 250px;
   margin: 50px auto;
   padding: 20px;
   background-color: #ffffff1a;
@@ -50,7 +51,7 @@
   resize: none;
 }
 
-button[type="submit"] {
+.btn-submit {
   display: block;
   width: 100%;
   padding: 10px;
@@ -61,6 +62,14 @@ button[type="submit"] {
   cursor: pointer;
 }
 
-button[type="submit"]:hover {
+.btn-submit:hover {
   background-color: #e36969;
 }
+
+@media (max-width: 600px) {
+  .map {
+    width: 200px;
+    margin-left: 10%;
+  }
+}
+
